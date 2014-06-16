@@ -1,0 +1,175 @@
+
+/*header and navigation style*/
+
+.brandlogo {
+    max-width: 100%;
+}
+
+.top-bar {
+    background-color: #000033;
+    height: 66px;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #000033;
+    padding-top: 12px;
+    margin-right: 50%;
+}
+
+.brandlogo {
+    margin-right: 200px;
+}
+.top-bar-section ul li > a {
+    font-size: 1.2rem;
+    text-align: center;
+}
+#home:hover, #search:hover, #fav:hover, #result:hover, #log:hover, #sign:hover {
+    background-color: #b6182a;
+    height: 66px;
+}
+
+.home{
+    background-color: white;
+    height: 66px;
+}
+
+/*footer style*/
+.bottom {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    display: inline;
+    height: 50px;
+}
+.bottom ul li {
+    float: left;
+    margin-right:300px;
+    padding-top: 10px;
+}
+.bottom ul li:first-of-type{
+    margin-left: 390px;
+}
+.bottom ul li > a {
+    color: white;
+}
+
+
+/*background style*/
+
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.baseball {
+    background: url(../img/baseball.jpg) no-repeat center center fixed;
+}
+.football {
+    background: url(../img/football.jpg) no-repeat center center fixed;
+}
+.hockey {
+    background: url(../img/hockey.jpg) no-repeat center center fixed;
+}
+.golf {
+    background: url(../img/golf.jpg) no-repeat center center fixed;
+}
+.tennis {
+    background: url(../img/tennis.jpg) no-repeat center center fixed;
+}
+.basketball {
+    background: url(../img/basketball.jpg) no-repeat center center fixed;
+}
+
+/*content panel style*/
+
+.panel {
+    background-color: rgba(182,24,42,0.9);
+    border: none;
+    margin-top: 90px;
+    border-radius: 15px;
+}
+.panel p, .panel h2, .panel h3, .panel h4{
+    color: white;
+}
+
+label{
+    color: white;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+    background: none repeat scroll 0 0 rgba(182,24,42,0.9);
+    height: 66px;
+    padding-top: 12px;
+}
+
+.button {
+    background: white;
+    color: rgb(182,24,42);
+    margin-left: 370px;
+}
+/* #Media Queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+
+    .brandlogo {-webkit-transform: scale(0.7); /* Saf3.1+, Chrome */
+        -moz-transform: scale(0.7); /* FF3.5+ */
+        -ms-transform: scale(0.7); /* IE9 */
+        -o-transform: scale(0.7); /* Opera 10.5+ */
+        transform: scale(0.7);
+    }
+
+    .top-bar-section li:not(.has-form) a:not(.button) {
+        margin-right: 30%;
+    }
+    .top-bar-section ul li > a {
+        font-size: 1.0rem;
+    }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+    .brandlogo {-webkit-transform: scale(0.7); /* Saf3.1+, Chrome */
+        -moz-transform: scale(0.7); /* FF3.5+ */
+        -ms-transform: scale(0.7); /* IE9 */
+        -o-transform: scale(0.7); /* Opera 10.5+ */
+        transform: scale(0.7);
+    }
+    .top-bar-section li:not(.has-form) a:not(.button) {
+        margin-right: 30%;
+    }
+
+
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .brandlogo {-webkit-transform: scale(0.5); /* Saf3.1+, Chrome */
+        -moz-transform: scale(0.5); /* FF3.5+ */
+        -ms-transform: scale(0.5); /* IE9 */
+        -o-transform: scale(0.5); /* Opera 10.5+ */
+        transform: scale(0.5);
+    }
+
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+    .brandlogo {-webkit-transform: scale(0.3); /* Saf3.1+, Chrome */
+        -moz-transform: scale(0.3); /* FF3.5+ */
+        -ms-transform: scale(0.3); /* IE9 */
+        -o-transform: scale(0.3); /* Opera 10.5+ */
+        transform: scale(0.3);
+    }
+
+}
