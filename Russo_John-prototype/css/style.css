@@ -1,6 +1,10 @@
 
 /*header and navigation style*/
 
+body, h1, h2, h3, p, a {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
 .brandlogo {
     max-width: 100%;
 }
@@ -8,23 +12,26 @@
 .top-bar {
     background-color: #000033;
     height: 66px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .top-bar-section li:not(.has-form) a:not(.button) {
     background: #000033;
     padding-top: 12px;
-    margin-right: 50%;
+    margin-right: 40%;
 }
 
 .brandlogo {
     margin-right: 200px;
 }
 .top-bar-section ul li > a {
-    font-size: 1.2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.5rem;
     text-align: center;
 }
 #home:hover, #search:hover, #fav:hover, #result:hover, #log:hover, #sign:hover {
     background-color: #b6182a;
     height: 66px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .home{
@@ -43,7 +50,7 @@
 }
 .bottom ul li {
     float: left;
-    margin-right:300px;
+    margin-right:200px;
     padding-top: 10px;
 }
 .bottom ul li:first-of-type{
@@ -95,6 +102,8 @@ body {
 
 label{
     color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.3em;
 }
 .top-bar-section li.active:not(.has-form) a:not(.button) {
     background: none repeat scroll 0 0 rgba(182,24,42,0.9);
@@ -103,9 +112,13 @@ label{
 }
 
 .button {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     background: white;
     color: rgb(182,24,42);
     margin-left: 370px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 1.4em;
 }
 /* #Media Queries
 ================================================== */
@@ -125,6 +138,7 @@ label{
     }
     .top-bar-section ul li > a {
         font-size: 1.0rem;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
     }
 }
 
